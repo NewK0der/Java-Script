@@ -11,8 +11,12 @@ console.log(undefined == 0) // false
 console.log(undefined >= 0) // false
 
 // strict check
-console.log("2" === 2) // false
+console.log("2" === 2) // false - check value as well as data type
 
 console.log("1" > true) // false  converts true into 1
 console.log("1" == true) // true
 console.log("1" < true) // false
+
+console.log("0" > false) // false  converts true into 0
+console.log("0" == false) // true
+console.log("0" < false) // false
